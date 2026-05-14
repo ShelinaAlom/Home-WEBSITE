@@ -3,37 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Decorate Website</title>
+    <title>Amena Interiors | Home Design Studio</title>
     <link rel="stylesheet" href="saif.css">
 </head>
 <body>
-    <div class="banner">
-        
-        <div class="navbar">
-            <img src="la.png" class="logo">
+    <header class="hero" id="home">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a class="brand" href="#home" aria-label="Amena Interiors home">
+                <img src="la.png" alt="Amena Interiors logo" class="logo">
+                <span>Amena Interiors</span>
+            </a>
 
-            <ul>
-                <li><a href="#">Home</a></li>                
-                <li><a href="#">Bedroom</a></li>
-                <li><a href="#">Dining</a></li>
-                <li><a href="#">Kitchen</a></li>
-                <li><a href="#">Backyard</a></li>
-
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+
+            <a class="nav-cta" href="#contact">Book Consult</a>
+        </nav>
+
+        <div class="hero-content">
+            <p class="eyebrow">Residential interior design studio</p>
+            <h1>Design a home that feels calm, refined, and deeply yours.</h1>
+            <p class="hero-copy">We plan beautiful bedrooms, kitchens, dining rooms, and outdoor spaces with practical layouts, warm materials, and a polished finish.</p>
+
+            <div class="hero-actions">
+                <a class="btn primary" href="#projects">View Projects</a>
+                <a class="btn secondary" href="#services">Explore Services</a>
+            </div>
         </div>
 
-<div class="content">
-    <h2>DESGN YOUR OWN HOUSE</h2>
-    <P>New Unique ideas for Creating a beautiful home structure requires beautiful environment<br>and beautiful weather and definietly nedds a beautiful mind to decorate its iterior.</P>
-    <div>
-        <button type="button"><span></span> MORE</button>
-        <button type="button"><span></span>LIKE</button>
+        <div class="hero-card" aria-label="Studio highlights">
+            <div>
+                <strong>180+</strong>
+                <span>Homes Styled</span>
+            </div>
+            <div>
+                <strong>12 yrs</strong>
+                <span>Design Experience</span>
+            </div>
+            <div>
+                <strong>4.9/5</strong>
+                <span>Client Rating</span>
+            </div>
+        </div>
+    </header>
 
-    
+    <main>
+        <section class="section intro">
+            <div class="section-heading">
+                <p class="eyebrow">What we create</p>
+                <h2>Complete design support for every important space.</h2>
+            </div>
+            <p class="section-copy">From concept moodboards to furniture, lighting, color, and final styling, our process keeps your home elegant, functional, and easy to live in.</p>
+        </section>
 
-    </div>
-</div>
-    </div>
-    
+        <section class="section rooms" id="rooms">
+            <article class="room-card featured">
+                <span>01</span>
+                <h3>Bedroom Retreats</h3>
+                <p>Layered textures, practical storage, soft lighting, and a restful palette for better everyday comfort.</p>
+            </article>
+            <article class="room-card">
+                <span>02</span>
+                <h3>Kitchen Planning</h3>
+                <p>Smart cabinet layouts, durable surfaces, and warm finishes that make cooking feel effortless.</p>
+            </article>
+            <article class="room-card">
+                <span>03</span>
+                <h3>Dining Spaces</h3>
+                <p>Welcoming tablescapes, statement lighting, and proportions that suit family meals and guests.</p>
+            </article>
+            <article class="room-card">
+                <span>04</span>
+                <h3>Backyard Living</h3>
+                <p>Outdoor seating, greenery, and lighting plans that extend your home beyond the walls.</p>
+            </article>
+        </section>
+
+        <section class="split-section" id="services">
+            <div class="image-panel">
+                <img src="ame.jpg" alt="Modern furnished living room interior">
+            </div>
+            <div class="text-panel">
+                <p class="eyebrow">Our services</p>
+                <h2>Professional details, handled from first idea to final styling.</h2>
+                <div class="service-list">
+                    <div>
+                        <h3>Space Planning</h3>
+                        <p>Measured layouts, furniture placement, and traffic flow for rooms that work beautifully.</p>
+                    </div>
+                    <div>
+                        <h3>Material Selection</h3>
+                        <p>Color palettes, flooring, fabrics, lighting, and finishes chosen to feel cohesive.</p>
+                    </div>
+                    <div>
+                        <h3>Project Styling</h3>
+                        <p>Accessories, art, plants, and final touches that make the finished home feel complete.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section process">
+            <div class="section-heading">
+                <p class="eyebrow">How it works</p>
+                <h2>A clear process keeps the project simple.</h2>
+            </div>
+            <div class="process-grid">
+                <div>
+                    <span>1</span>
+                    <h3>Discover</h3>
+                    <p>We learn your lifestyle, budget, timeline, and the feeling you want at home.</p>
+                </div>
+                <div>
+                    <span>2</span>
+                    <h3>Design</h3>
+                    <p>You receive layouts, moodboards, selections, and a realistic project direction.</p>
+                </div>
+                <div>
+                    <span>3</span>
+                    <h3>Deliver</h3>
+                    <p>We coordinate styling details so every room looks finished and intentional.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">Recent work</p>
+                <h2>Realistic spaces with warmth, balance, and personality.</h2>
+            </div>
+            <div class="project-grid">
+                <article>
+                    <img src="ame.jpg" alt="Elegant living room project">
+                    <div>
+                        <h3>Modern Family Lounge</h3>
+                        <p>Neutral textures, custom seating, and layered evening lighting.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="project-fill warm"></div>
+                    <div>
+                        <h3>Soft Minimal Bedroom</h3>
+                        <p>Built-in storage, linen bedding, and a relaxed reading corner.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="project-fill green"></div>
+                    <div>
+                        <h3>Garden Dining Patio</h3>
+                        <p>Durable outdoor furniture with greenery and ambient wall lights.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <blockquote>
+                "Amena Interiors helped us turn a plain house into a warm, elegant home. Every room now feels planned, useful, and beautiful."
+            </blockquote>
+            <p>Sarah Rahman, Dhaka Homeowner</p>
+        </section>
+
+        <section class="contact" id="contact">
+            <div>
+                <p class="eyebrow">Start your project</p>
+                <h2>Ready to redesign your home?</h2>
+                <p>Tell us about your room, your budget, and your dream style. We will help shape it into a practical design plan.</p>
+            </div>
+            <a class="btn primary" href="mailto:hello@amenainteriors.com">Contact Studio</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Amena Interiors</p>
+        <span>Home design, styling, and decorating services.</span>
+    </footer>
 </body>
 </html>
